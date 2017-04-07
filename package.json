@@ -1,0 +1,25 @@
+{
+    "name": "react-calculator",
+    "version": "1.0.0",
+    "description": "\"\"",
+    "main": "index.js",
+    "scripts": {
+        "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
+        "test": "\"\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "\"\""
+    },
+    "keywords": [
+        "\"\""
+    ],
+    "author": "afd",
+    "license": "ISC",
+    "dependencies": {
+        "babel-preset-react": "^6.23.0",
+        "babelify": "^7.3.0",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2"
+    }
+}
